@@ -21,7 +21,7 @@ This is a Model Context Protocol (MCP) server for analyzing Azure usage data fro
 
 3. Run the server:
    ```
-   python app.py
+   python claude_mcp.py
    ```
 
 ## Configuration for Claude or other AI assistants
@@ -33,10 +33,9 @@ You can configure this MCP server in your AI assistant configuration using the f
   "mcpServers": {
     "azure-usage-analyzer": {
       "command": "python",
-      "args": ["app.py"],
+      "args": ["claude_mcp.py"],
       "cwd": "path/to/mcp-server",
-      "env": {},
-      "endpoint": "http://localhost:8000/mcp"
+      "env": {}
     }
   }
 }
