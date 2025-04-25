@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "azure-usage-analyzer": {
+      "command": "python",
+      "args": ["claude_mcp.py"],
+      "cwd": "c:/MCP Code crunch/mcp-server",
+      "env": {}
+    }
+  }
+}

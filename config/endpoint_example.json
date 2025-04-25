@@ -1,0 +1,13 @@
+{
+  "context_sources": [
+    {
+      "type": "custom_api",
+      "name": "BC Azure Usage Analyzer",
+      "endpoint": "http://localhost:8000/ask",
+      "description": "Processes Azure usage CSV data and provides insights and charts on cost distribution.",
+      "input_schema": {
+        "query": "string"
+      }
+    }
+  ]
+}
